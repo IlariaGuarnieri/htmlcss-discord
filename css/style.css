@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: space-around;
+}
+
+nav ul li{
+  display: inline;
+  list-style: none;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+img{
+  max-width: 100%;
+}
+
+p{
+  margin-top: 40px;
+}
+
+.login{
+background-color: #ffffff;
+width: 70px;
+height: 30px;
+border-radius: 50px;
+border-color: #FFF;
+}
+
+.scarica{
+  background-color: #ffffff;
+  width: 150px;
+  height: 35px;
+  border-radius: 50px;
+  border-color: #FFF;
+  margin-top: 20px;
+}
+
+.apri-discord{
+  background-color: black;
+  width: 210px;
+  height: 35px;
+  border-radius: 50px;
+  color: white;
+  border-color: black;
+}
+
+.topbar .container{
+  justify-content: space-between;
+  align-items: center;
+  height:100px;
+  
+}
+
+.topbar .menu{
+  width: 50%;
+}
+
+.container{
+  /*display: flex; serve? */
+  /*justify-content: space-between;*/
+  /*justify-content: center;*/
+  width: 80%;
+  height: 800%;
+  margin: 0 auto;
+  background-image: url(/img/jumbo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.jumbotron{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+
+.jumbotron.content{
+  max-width: 950px;
+  height: 380px;   height: 100%;
+
+}
+
+.testo{
+  height: 400px;
+  width: 600px;
+  border: 1px dashed black;
+  color: white;
+  text-align: center;
+
+}
+
+/* MAIN */
+
+main section{
+  padding: 150px 0;
+  height: 900px;
+}
+
+main section .container{
+  height: 100%;
+}
+
+
+.luogo{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.container-base{
+  display: flex;
+  height: 600px;
+  width: 1000px;
+  background-color: black;
+}
+
+.luogo .container-base .box-image{
+  width: 65%;
+  background-color: #1E90FE;
+  border: 1px dashed black;
+}
+
+.luogo .container-base .box-text{
+  width: 35%;
+  background-color: #FFC1CB;
+  border: 1px dashed black;
+}
+
+.dove{
+  background-color: #D3D3D3;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.dove .container-base .box-image{
+  width: 65%;
+  background-color: #1E90FE;
+}
+
+.dove .container-base .box-text{
+  width: 35%;
+  background-color: #FFC1CB;
+}
+
+.tecnologia{
+  display: flex;
+  background-color: #D3D3D3;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+}
+
+.container-base-tecno{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 1000px;
+  background-color: #228B22;
+}
+
+.sezione-footer{
+  background-color:#23272A;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  border-bottom: 1px solid white;
+}
+
+.sezione-footer .container-base-footer{
+  height: 95%;
+  width: 1000px;
+  background-color: black;
+}
+
+.container-base-footer .box-social{
+  width: 30%;
+  background-color: #F08080;
+  border: 1px dashed black;
+  
+}
+
+.container-base-footer .info-box{
+  width: 17.5%;
+  background-color: #20B2AA;
+  border: 1px dashed white;
+}
+
+.footer-bottom{
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #23272A;
+  height: 80px;
+}
+
+.container-base-footer-bottom{
+  height: 80%;
+  width: 1000px;
+  background-color:#7FFFD4;
+  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.bottone{
+  background-color: #FEB6C1;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.bordo{
+  border: 1px dashed black; 
+}

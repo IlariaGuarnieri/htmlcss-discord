@@ -31,8 +31,12 @@ img{
 }
 
 p{
-  margin-top: 40px;
+  margin-top: 30px;
+  font-size: 17px;
+  word-spacing: 1px;
+  line-height: 25px;
 }
+
 
 .login{
 background-color: #ffffff;
@@ -72,11 +76,7 @@ border-color: #FFF;
 }
 
 .container{
-  /*display: flex; serve? */
-  /*justify-content: space-between;*/
-  /*justify-content: center;*/
   width: 80%;
-  height: 800%;
   margin: 0 auto;
   background-image: url(/img/jumbo.png);
   background-size: contain;
@@ -91,16 +91,9 @@ border-color: #FFF;
   height: 450px;
 }
 
-.jumbotron.content{
-  max-width: 950px;
-  height: 380px;   height: 100%;
-
-}
-
 .testo{
   height: 400px;
-  width: 600px;
-  border: 1px dashed black;
+  width: 650px;
   color: white;
   text-align: center;
 
@@ -109,14 +102,9 @@ border-color: #FFF;
 /* MAIN */
 
 main section{
-  padding: 150px 0;
+  padding: 150px;
   height: 900px;
 }
-
-main section .container{
-  height: 100%;
-}
-
 
 .luogo{
   background-color: rgb(255, 255, 255);
@@ -128,21 +116,19 @@ main section .container{
 
 .container-base{
   display: flex;
-  height: 600px;
+  height: 500px;
   width: 1000px;
-  background-color: black;
 }
 
 .luogo .container-base .box-image{
   width: 65%;
-  background-color: #1E90FE;
-  border: 1px dashed black;
+  background-color: #ffffff;
 }
 
 .luogo .container-base .box-text{
   width: 35%;
-  background-color: #FFC1CB;
-  border: 1px dashed black;
+  font-size: 25px;
+  margin-top: 40px;
 }
 
 .dove{
@@ -154,12 +140,12 @@ main section .container{
 
 .dove .container-base .box-image{
   width: 65%;
-  background-color: #1E90FE;
 }
 
 .dove .container-base .box-text{
   width: 35%;
-  background-color: #FFC1CB;
+  font-size: 25px;
+  margin-top: 40px;
 }
 
 .tecnologia{
@@ -171,12 +157,13 @@ main section .container{
 }
 
 .container-base-tecno{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   height: 90%;
   width: 1000px;
-  background-color: #228B22;
+}
+
+#text-title{
+font-size: 25px;
 }
 
 .sezione-footer{
@@ -196,8 +183,6 @@ main section .container{
 .container-base-footer .box-social{
   width: 30%;
   background-color: #F08080;
-  border: 1px dashed black;
-  
 }
 
 .container-base-footer .info-box{
@@ -216,13 +201,12 @@ main section .container{
 
 .container-base-footer-bottom{
   height: 80%;
-  width: 1000px;
+  width: 800px;
   background-color:#7FFFD4;
   justify-content: flex-end;
   justify-content: space-between;
   align-items: center;
 }
-
 
 .bottone{
   background-color: #FEB6C1;
@@ -230,8 +214,4 @@ main section .container{
 
 .d-flex{
   display: flex;
-}
-
-.bordo{
-  border: 1px dashed black; 
 }

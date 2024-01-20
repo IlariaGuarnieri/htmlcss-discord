@@ -169,7 +169,7 @@ main section{
   background-size: contain;
   background-repeat: no-repeat;
   width: 500px;
-  height: 200px;
+  height: 100px;
   margin-left: 270px;
   margin-top: 60px;
 }
@@ -177,7 +177,7 @@ main section{
 .scarica-cta{
   background-color: #7289DB;
   width: 150px;
-  height: 50px;
+  height: 40px;
   border-radius: 50px;
   border-color: #7289DB;
   margin-top: 30px;

@@ -19,11 +19,16 @@ nav ul li{
   display: inline;
   list-style: none;
   text-align: center;
+  margin: 5px;
 }
 
 a{
   text-decoration: none;
   color: #FFF;
+}
+
+h1{
+  font-size: 49px;
 }
 
 img{
@@ -76,10 +81,9 @@ border-color: #FFF;
 }
 
 .container{
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
   background-image: url(/img/jumbo.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -88,13 +92,15 @@ border-color: #FFF;
   justify-content: center;
   align-items: center;
   height: 450px;
+  
 }
 
 .testo{
-  height: 400px;
+  height: 460px;
   width: 650px;
   color: white;
   text-align: center;
+  margin-top: 100px;
 }
 
 /* MAIN */
@@ -130,7 +136,7 @@ main section{
 }
 
 .dove{
-  background-color: #D3D3D3;
+  background-color: #F6F6F6;
   justify-content: center;
   align-items: center;
   height: 600px;
@@ -148,7 +154,7 @@ main section{
 
 .tecnologia{
   display: flex;
-  background-color: #D3D3D3;
+  background-color: #F6F6F6;
   justify-content: center;
   align-items: center;
   height: 900px;

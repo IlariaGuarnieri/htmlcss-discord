@@ -84,7 +84,6 @@ border-color: #FFF;
 }
 
 .jumbotron{
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +95,6 @@ border-color: #FFF;
   width: 650px;
   color: white;
   text-align: center;
-
 }
 
 /* MAIN */
@@ -162,33 +160,81 @@ main section{
   width: 1000px;
 }
 
-#text-title{
-font-size: 25px;
+.text-title{
+  font-size: 40px;
 }
+
+.cta-base{
+  background-image: url(/img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 200px;
+  margin-left: 270px;
+  margin-top: 60px;
+}
+
+.scarica-cta{
+  background-color: #7289DB;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  border-color: #7289DB;
+  margin-top: 30px;
+  color: #FFF;
+}
+
+/* footer */
 
 .sezione-footer{
   background-color:#23272A;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 400px;
   border-bottom: 1px solid white;
 }
 
+.italia{
+  width: 20px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+.social{
+  display: flex;
+  color: #FFF;
+  justify-content:space-around;
+  margin-right: 130px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.white{
+  color: #FFF;
+}
+
 .sezione-footer .container-base-footer{
-  height: 95%;
+  height: 80%;
   width: 1000px;
-  background-color: black;
 }
 
 .container-base-footer .box-social{
   width: 30%;
-  background-color: #F08080;
+  font-size: 25px;
+  color: #7289DB;
+}
+
+.lilla{
+  color: #7289DB;
+}
+
+ul li{
+  list-style: none;
+  line-height: 28px;
 }
 
 .container-base-footer .info-box{
   width: 17.5%;
-  background-color: #20B2AA;
-  border: 1px dashed white;
 }
 
 .footer-bottom{
@@ -196,20 +242,26 @@ font-size: 25px;
   align-items: center;
   justify-content: space-around;
   background-color: #23272A;
-  height: 80px;
+  height: 120px;
 }
 
 .container-base-footer-bottom{
   height: 80%;
-  width: 800px;
-  background-color:#7FFFD4;
+  width: 1000px;
   justify-content: flex-end;
   justify-content: space-between;
   align-items: center;
 }
 
 .bottone{
-  background-color: #FEB6C1;
+  background-color: #7289DB;
+  width: 100px;
+  height: 35px;
+  border-radius: 50px;
+  border-color:  #7289DB;
+  margin-top: 20px;
+  color: #FFF;
+  margin-top: 2px;
 }
 
 .d-flex{
